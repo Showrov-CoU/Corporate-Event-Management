@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import Gallery from "../Pages/Gallery/Gallery";
 import Login from "../Components/Login";
 import Register from "../Components/Register";
+import Services from "../Pages/Services/Services";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/services",
-        // element: <Services></Services>,
-
+        element: <Services></Services>,
       },
       {
         path: "/gallery",

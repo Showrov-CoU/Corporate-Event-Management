@@ -16,7 +16,10 @@ const Review = () => {
   return (
     <div>
       <div className="carousel w-full">
-        <div id="item1" className="carousel-item w-full gap-3">
+        <div
+          id="item1"
+          className="carousel-item w-full md:gap-3 flex-col gap-4 md:flex-row"
+        >
           <div className="flex flex-col gap-3" data-aos="zoom-out">
             <div className="flex justify-start gap-3">
               <div className="w-12 h-12 rounded-full">
@@ -27,7 +30,7 @@ const Review = () => {
                 <p className="text-sm">Happy Client</p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-base">
               The expo provided us with a platform to showcase our latest
               innovations to a receptive audience.
             </p>
@@ -42,7 +45,7 @@ const Review = () => {
                 <p className="text-sm">Happy Client</p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-base">
               The seminar on AI technology was incredibly informative. I left
               with a clear understanding of the latest advancements.
             </p>
@@ -57,13 +60,16 @@ const Review = () => {
                 <p className="text-sm">Happy Client</p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-base">
               The team-building workshop was a fantastic experience. Our team is
               now more unified and productive.
             </p>
           </div>
         </div>
-        <div id="item2" className="carousel-item w-full">
+        <div
+          id="item2"
+          className="carousel-item w-full md:gap-3 flex-col gap-4 md:flex-row"
+        >
           <div className="flex flex-col gap-3" data-aos="zoom-out">
             <div className="flex justify-start gap-3">
               <div className="w-12 h-12 rounded-full">
@@ -74,7 +80,7 @@ const Review = () => {
                 <p className="text-sm">Happy Client</p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-base">
               The expo provided us with a platform to showcase our latest
               innovations to a receptive audience.
             </p>
@@ -89,7 +95,7 @@ const Review = () => {
                 <p className="text-sm">Happy Client</p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-base">
               The seminar on AI technology was incredibly informative. I left
               with a clear understanding of the latest advancements.
             </p>
@@ -104,7 +110,7 @@ const Review = () => {
                 <p className="text-sm">Happy Client</p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-base">
               The team-building workshop was a fantastic experience. Our team is
               now more unified and productive.
             </p>
