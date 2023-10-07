@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Services = ({ service }) => {
-  console.log(service);
+  // console.log(service);
   useEffect(() => {
     Aos.init();
   }, []);

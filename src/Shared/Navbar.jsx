@@ -52,9 +52,9 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="  dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
+            className="  dropdown-content mt-3 z-[1] p-2 shadow bg-color-primary-light rounded-box w-52"
           >
-            {links}
+            {links} 
           </ul>
         </div>
         <a className="text-color-secondary font-bold ml-1">
@@ -67,7 +67,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <Link to="/login">
-          <button className="btns px-2">Log in</button>
+          <button className="btns px-2">Login</button>
         </Link>
       </div>
     </div>
