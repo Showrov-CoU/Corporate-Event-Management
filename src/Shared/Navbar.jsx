@@ -1,16 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const links = (
     <>
-      <li className="mr-4">
+      <li className="mr-5 text-lg">
         <NavLink to="/">
           {({ isActive }) => (
             <span className={isActive ? "text-color-secondary" : ""}>Home</span>
           )}
         </NavLink>
       </li>
-      <li className="mr-4">
+      <li className="mr-5 text-lg">
         <NavLink to="/services">
           {({ isActive }) => (
             <span className={isActive ? "text-color-secondary" : ""}>
@@ -19,7 +19,7 @@ const Navbar = () => {
           )}
         </NavLink>
       </li>
-      <li className="mr-4">
+      <li className="mr-5 text-lg">
         <NavLink to="/gallery">
           {({ isActive }) => (
             <span className={isActive ? "text-color-secondary" : ""}>
@@ -66,7 +66,9 @@ const Navbar = () => {
         <ul className="menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btns px-2">Log in</button>
+        <Link to="/login">
+          <button className="btns px-2">Log in</button>
+        </Link>
       </div>
     </div>
   );

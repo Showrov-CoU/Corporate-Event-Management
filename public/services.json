@@ -1,0 +1,158 @@
+[
+    {
+      "id": 1,
+      "name": "Conferences and Seminars",
+      "description": "Plan and execute conferences and seminars for knowledge-sharing and industry discussions.",
+      "example": "Annual Tech Summit featuring top tech experts and thought leaders.",
+      "image": "https://i.ibb.co/fqmKPrd/service1.jpg",
+      "pricing": "Starting at $5,000",
+      "duration": "2-3 days",
+      "benefits": [
+        "Access to industry thought leaders",
+        "Networking opportunities",
+        "Knowledge sharing and insights"
+      ],
+      "testimonials": [
+        {
+          "client_name": "John Smith",
+          "client_image": "client_john.jpg",
+          "quote": "The Tech Summit was a game-changer for our company. We gained valuable insights and made key industry connections."
+        },
+        {
+          "client_name": "Emily Davis",
+          "client_image": "client_emily.jpg",
+          "quote": "The seminar on AI technology was incredibly informative. I left with a clear understanding of the latest advancements."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Trade Shows and Expos",
+      "description": "Organize trade shows and expos to showcase products and services to a targeted audience.",
+      "example": "Auto Expo with leading car manufacturers and automotive accessories.",
+      "image": "https://i.ibb.co/sjQgDw4/Trade-Show2.jpg",
+      "pricing": "Customized based on requirements",
+      "duration": "1-5 days",
+      "benefits": [
+        "Product visibility and promotion",
+        "Networking with industry professionals",
+        "Lead generation opportunities"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Sarah Johnson",
+          "client_image": "client_sarah.jpg",
+          "quote": "Our participation in the Auto Expo led to a significant increase in brand recognition and sales."
+        },
+        {
+          "client_name": "Michael Turner",
+          "client_image": "client_michael.jpg",
+          "quote": "The expo provided us with a platform to showcase our latest innovations to a receptive audience."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Team Building Workshops",
+      "description": "Facilitate team-building workshops to improve teamwork and communication among employees.",
+      "example": "Adventure-based team-building day for better collaboration.",
+      "image": "https://i.ibb.co/vwgLx9H/teambuilding.jpg",
+      "pricing": "Starting at $1,500",
+      "duration": "1 day",
+      "benefits": [
+        "Improved team cohesion",
+        "Enhanced problem-solving skills",
+        "Boosted employee morale"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Alexandra Carter",
+          "client_image": "client_alexandra.jpg",
+          "quote": "The team-building workshop was a fantastic experience. Our team is now more unified and productive."
+        },
+        {
+          "client_name": "Robert Allen",
+          "client_image": "client_robert.jpg",
+          "quote": "The outdoor challenges pushed us to work together and think creatively. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Product Launches",
+      "description": "Manage product launches to create excitement and buzz in the market.",
+      "example": "Launch of the latest smartphone with media coverage and demos.",
+      "image": "https://i.ibb.co/c1L8w34/productlanchenew.jpg",
+      "pricing": "Customized based on scope",
+      "duration": "1-3 days",
+      "benefits": [
+        "Maximum product exposure",
+        "Media attention and coverage",
+        "Positive brand image"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Mark Anderson",
+          "client_image": "client_mark.jpg",
+          "quote": "Our product launch was a resounding success, thanks to the meticulous planning and execution."
+        },
+        {
+          "client_name": "Linda Martinez",
+          "client_image": "client_linda.jpg",
+          "quote": "The product demos generated a lot of interest, and our sales have skyrocketed since the launch."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Corporate Meetings",
+      "description": "Coordinate corporate meetings for executives and stakeholders to make strategic decisions.",
+      "example": "Quarterly board meeting for financial review and planning.",
+      "image": "https://i.ibb.co/51rBsJB/meetnew.jpg",
+      "pricing": "Starting at $3,500",
+      "duration": "1 day",
+      "benefits": [
+        "Efficient decision-making",
+        "Clear strategic planning",
+        "Enhanced communication among leaders"
+      ],
+      "testimonials": [
+        {
+          "client_name": "James Peterson",
+          "client_image": "client_james.jpg",
+          "quote": "Our board meeting was well-organized and productive. We achieved our goals for the quarter."
+        },
+        {
+          "client_name": "Sarah Collins",
+          "client_image": "client_sarah.jpg",
+          "quote": "The meeting provided a platform for open discussions, leading to actionable strategies."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Award Ceremonies",
+      "description": "Organize award ceremonies to recognize and celebrate achievements.",
+      "example": "Annual Excellence Awards Gala honoring outstanding employees.",
+      "image": "https://i.ibb.co/5GsBbQr/award.jpg",
+      "pricing": "Starting at $4,000",
+      "duration": "1 evening",
+      "benefits": [
+        "Boosted employee morale",
+        "Enhanced company culture",
+        "Recognition of outstanding achievements"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Jessica Turner",
+          "client_image": "client_jessica.jpg",
+          "quote": "Our annual awards gala is a highlight for our employees, and it motivates everyone to excel."
+        },
+        {
+          "client_name": "David Mitchell",
+          "client_image": "client_david.jpg",
+          "quote": "The awards ceremony has become a tradition that brings our team together and acknowledges excellence."
+        }
+      ]
+    }
+  ]

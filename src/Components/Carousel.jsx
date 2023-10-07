@@ -62,6 +62,7 @@ const Carousel = () => {
             ❯
           </a>
         </div>
+
         <div className="absolute left-[11%] md:left-[18%] top-[25%] md:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
@@ -70,7 +71,8 @@ const Carousel = () => {
             data-aos="fade-left"
             className="text-center text-lg md:text-5xl font-bold leading-snug capitalize"
           >
-            Elevate Your Company's Brand with <br /> Exceptional Event Planning
+            Elevate Your Company&apos;s Brand with <br /> Exceptional Event
+            Planning
           </h1>
         </div>
       </div>
@@ -132,7 +134,8 @@ const Carousel = () => {
             data-aos="fade-left"
             className="text-center text-lg md:text-5xl font-bold leading-snug capitalize"
           >
-            Experience Corporate Excellence <br /> through <br /> Tailored Event Solutions
+            Experience Corporate Excellence <br /> through <br /> Tailored Event
+            Solutions
           </h1>
         </div>
       </div>
