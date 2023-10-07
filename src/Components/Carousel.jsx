@@ -31,13 +31,13 @@ const Carousel = () => {
             ❯
           </a>
         </div>
-        <div className="absolute left-[15%] md:left-[20%] top-[35%] md:top-[30%] transform">
+        <div className="absolute left-[15%] md:left-[14%] lg:left-[20%] top-[35%] lg:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
           <h1
             data-aos="fade-left"
-            className="text-center text-lg md:text-5xl font-bold leading-snug capitalize"
+            className="text-center text-lg md:text-4xl lg:text-5xl font-bold leading-snug capitalize"
           >
             Enhance Your Corporate Success <br /> with Professional Events
           </h1>
@@ -63,13 +63,13 @@ const Carousel = () => {
           </a>
         </div>
 
-        <div className="absolute left-[11%] md:left-[18%] top-[25%] md:top-[30%] transform">
+        <div className="absolute left-[11%] md:left-[15%] lg:left-[18%] top-[25%] md:top-[33%] lg:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
           <h1
             data-aos="fade-left"
-            className="text-center text-lg md:text-5xl font-bold leading-snug capitalize"
+            className="text-center text-lg md:text-3xl lg:text-5xl font-bold leading-snug capitalize"
           >
             Elevate Your Company&apos;s Brand with <br /> Exceptional Event
             Planning
@@ -95,13 +95,13 @@ const Carousel = () => {
             ❯
           </a>
         </div>
-        <div className="absolute left-[15%] md:left-[20%] top-[30%] transform">
+        <div className="absolute left-[15%] md:left-[13%] lg:left-[20%] top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
           <h1
             data-aos="fade-left"
-            className="text-center text-lg md:text-5xl font-bold leading-snug capitalize"
+            className="text-center text-lg md:text-4xl lg:text-5xl font-bold leading-snug capitalize"
           >
             Empower Your Business through <br /> Strategic Corporate Gatherings
           </h1>
@@ -126,13 +126,13 @@ const Carousel = () => {
             ❯
           </a>
         </div>
-        <div className="absolute left-[15%] md:left-[20%] top-[28%] md:top-[30%] transform">
+        <div className="absolute left-[15%] md:left-[13%] lg:left-[20%] top-[28%] md:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
           <h1
             data-aos="fade-left"
-            className="text-center text-lg md:text-5xl font-bold leading-snug capitalize"
+            className="text-center text-lg md:text-4xl lg:text-5xl font-bold leading-snug capitalize"
           >
             Experience Corporate Excellence <br /> through <br /> Tailored Event
             Solutions

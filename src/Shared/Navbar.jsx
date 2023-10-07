@@ -57,7 +57,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="text-color-secondary font-bold ml-1">
+        <a className="text-color-secondary font-bold ml-2">
           <span className="text-3xl md:text-5xl h-fit">C</span>
           <span className="text-xl md:text-3xl h-fit">VENTS</span>
         </a>
