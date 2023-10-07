@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Services from "../Services/Services";
 import { useLoaderData } from "react-router-dom";
 import Aboutus from "../../Components/Aboutus";
+import Review from "../../Components/Review";
 
 const Home = () => {
   const servicesData = useLoaderData();
@@ -16,6 +17,8 @@ const Home = () => {
   return (
     <div className="">
       <Carousel></Carousel>
+
+      {/* service */}
       <h1 className=" text-center pt-10 pb-2 text-2xl md:text-4xl font-bold">
         <span className="text-color-secondary">Cvents</span>{" "}
         <span>Services</span>
@@ -28,12 +31,25 @@ const Home = () => {
           <Services key={service.id} service={service}></Services>
         ))}
       </div>
+
+      {/* About Us */}
       <div className="px-[5%] py-10">
         <h1 className=" text-center text-2xl pb-7 md:pb-10 md:text-4xl font-bold">
           <span className="text-color-secondary">About</span>
           <span> Us</span>
         </h1>
         <Aboutus></Aboutus>
+      </div>
+
+      {/* Review */}
+      <div className="px-[5%] py-10">
+        <h1 className=" text-center text-2xl pb-7 md:pb-10 md:text-4xl font-bold">
+          <span className="text-color-secondary">Client </span>
+          <span> Review</span>
+        </h1>
+        <div className="mx-auto">
+          <Review></Review>
+        </div>
       </div>
       {/* <div className="flex flex-col justify-center items-center">
         <h1
