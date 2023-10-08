@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image":"https://i.ibb.co/vwgLx9H/teambuilding.jpg",
+        "name": "Tech Summit 2023",
+        "date": "October 15-17, 2023",
+        "location": "Silicon Valley Conference Center",
+        "description": "The Tech Summit 2023 brings together industry leaders, tech enthusiasts, and innovators to discuss the latest trends in technology, AI, and digital transformation."
+      },
+      {
+        "id": 2,
+        "image":"https://i.ibb.co/gS1ZMv7/ong2.jpg",
+        "name": "Trade Shows and Expos",
+        "date": "November 5-7, 2023",
+        "location": "International Convention Center",
+        "description": "The Global Business Expo is an international trade show where companies from around the world showcase their products and services to a global audience."
+      },
+      {
+        "id": 3,
+        "image":"https://i.ibb.co/c1L8w34/productlanchenew.jpg",
+        "name": "Product Launches",
+        "date": "December 10-12, 2023",
+        "location": "Marriott Downtown Hotel",
+        "description": "The Leadership and Management Symposium is a three-day event focused on leadership development, management strategies, and organizational excellence."
+      },
+      {
+        "id": 4,
+        "image":"https://i.ibb.co/51rBsJB/meetnew.jpg",
+        "name": "Corporate Meetings",
+        "date": "January 20-22, 2024",
+        "location": "GreenTech Center",
+        "description": "Collaborative corporate meeting focusing on strategy, innovation, and growth.Engage in productive discussions and decision-making at our corporate meeting"
+    }
+]

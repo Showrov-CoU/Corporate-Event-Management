@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "name": "Corporate Leadership Forum",
+        "date": "December 5, 2024",
+        "time": "08:30 AM - 04:30 PM",
+        "location": "Executive Retreat Resort",
+        "description": "A gathering of top corporate leaders to share insights, network, and discuss leadership challenges and opportunities in the modern business landscape."
+      },
+      {
+        "id":2,
+        "name": "Global Marketing Summit",
+        "date": "November 15, 2024",
+        "time": "10:00 AM - 06:00 PM",
+        "location": "Marketing Expo Center",
+        "description": "Join marketing professionals from around the world to discuss the latest marketing trends, strategies, and technologies."
+      },
+      {
+        "id":3,
+        "name": "Green Technology Expo",
+        "date": "February 20, 2025",
+        "time": "10:00 AM - 07:00 PM",
+        "location": "GreenTech Convention Center",
+        "description": "An exhibition showcasing the latest advancements in green technology and sustainable solutions for businesses."
+      },
+      {
+        "id":4,
+        "name": "E-commerce Strategy Conference",
+        "date": "April 10, 2025",
+        "time": "10:30 AM - 06:30 PM",
+        "location": "E-commerce Hub",
+        "description": "Learn effective e-commerce strategies, trends, and best practices for businesses looking to thrive in the online marketplace."
+      }
+]

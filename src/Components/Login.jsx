@@ -30,7 +30,10 @@ const Login = () => {
 
   const handleGoogleLogIn = (googleLogin) => {
     googleLogin()
-      .then((res) => console.log(res.user))
+      .then((res) => {
+        console.log(res.user);
+        navigate(location?.state ? location.state : "/");
+      })
       .catch((error) => console.log(error.message));
   };
 

@@ -39,6 +39,30 @@ const Navbar = () => {
           )}
         </NavLink>
       </li>
+      {user ? (
+        <>
+          <li className="mr-5 text-lg">
+            <NavLink to="/profile">
+              {({ isActive }) => (
+                <span className={isActive ? "text-color-secondary" : ""}>
+                  Profile
+                </span>
+              )}
+            </NavLink>
+          </li>
+          <li className="mr-5 text-lg">
+            <NavLink to="/dashboard">
+              {({ isActive }) => (
+                <span className={isActive ? "text-color-secondary" : ""}>
+                  Dashboard
+                </span>
+              )}
+            </NavLink>
+          </li>
+        </>
+      ) : (
+        ""
+      )}
     </>
   );
   return (
