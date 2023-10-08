@@ -21,7 +21,7 @@ const Dashboard = () => {
         data-aos="fade-down"
       >
         <h1 className="text-2xl pb-2 font-bold">Upcoming Events</h1>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {upcoming.map((item) => (
             <div
               key={item.id}
@@ -56,7 +56,7 @@ const Dashboard = () => {
         data-aos="fade-up"
       >
         <h1 className="text-2xl pb-2 font-bold">Ongoing Events</h1>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {getData.map((item) => (
             <div
               key={item.id}
