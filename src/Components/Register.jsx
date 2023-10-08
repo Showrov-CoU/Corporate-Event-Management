@@ -1,11 +1,12 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import toast from "react-hot-toast";
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
+  const navigate = useNavigate();
   // const [registrationReload, setRegistrationReload] = useState(true);
 
   const handleRegister = (e) => {
@@ -23,7 +24,7 @@ const Register = () => {
     } else if (!/[A-Z]/.test(password)) {
       toast.error("Your Password should have at least one capital letter");
       return;
-    } else if (!/[!@#$%^&*()_+{}\[\]:;<>,.?~]/.test(password)) {
+    } else if (!/[!@#$%^&*()_+{}\\[\]:;<>,.?~]/.test(password)) {
       toast.error("Your Password should have at least one Special character");
       return;
     }
@@ -43,6 +44,7 @@ const Register = () => {
         //   location.reload();
         //   setRegistrationReload(false);
         // }
+        navigate("/");
       })
       .catch((error) => {
         toast.error(error.message);

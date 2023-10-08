@@ -6,7 +6,7 @@ import defaultUserPhoto from "../assets/user.png";
 const Navbar = () => {
   // location.reload();
   const { user, logOut } = useContext(AuthContext);
-  console.log(user);
+  // console.log(user);
   const handleLogout = () => {
     logOut()
       .then()

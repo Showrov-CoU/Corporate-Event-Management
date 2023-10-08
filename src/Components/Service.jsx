@@ -2,9 +2,11 @@ import PropTypes from "prop-types";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Services = ({ service }) => {
   // console.log(service);
+  const { id } = service;
   useEffect(() => {
     Aos.init();
   }, []);
@@ -26,7 +28,9 @@ const Services = ({ service }) => {
           <span className="font-bold">Price:</span> {service.pricing}
         </p>
         <div className="card-actions justify-end">
-          <button className="signbtn">View Details</button>
+          <Link to={`/detail/${id}`}>
+            <button className="signbtn">View Details</button>
+          </Link>
         </div>
       </div>
     </div>
