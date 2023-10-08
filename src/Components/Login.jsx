@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Login = () => {
   const { signIn, googleLogin } = useContext(AuthContext);
@@ -14,11 +15,11 @@ const Login = () => {
 
     signIn(email, password)
       .then((result) => {
-        
         console.log("hi", result.user);
+        e.target.reset();
       })
       .catch((error) => {
-        console.log(error.message);
+        toast.error(error.message);
       });
   };
 
