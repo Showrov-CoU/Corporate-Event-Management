@@ -1,6 +1,33 @@
+import { useContext } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../AuthProvider/AuthProvider";
+
 const Login = () => {
+  const { signIn, googleLogin } = useContext(AuthContext);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);
+    const email = form.get("email");
+    const password = form.get("password");
+
+    signIn(email, password)
+      .then((result) => {
+        
+        console.log("hi", result.user);
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
+
+  const handleGoogleLogIn = (googleLogin) => {
+    googleLogin()
+      .then((res) => console.log(res.user))
+      .catch((error) => console.log(error.message));
+  };
+
   return (
     <div className=" min-h-screen">
       <div className="hero-content flex-col pt-0">
@@ -16,7 +43,7 @@ const Login = () => {
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <form className="card-body">
+          <form className="card-body" onSubmit={handleLogin}>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
@@ -25,7 +52,7 @@ const Login = () => {
                 type="email"
                 name="email"
                 placeholder="Your Email"
-                className="input input-bordered"
+                className="input input-bordered text-color-secondary"
                 required
               />
             </div>
@@ -37,7 +64,7 @@ const Login = () => {
                 type="password"
                 name="password"
                 placeholder="Password"
-                className="input input-bordered"
+                className="input input-bordered text-color-secondary"
                 required
               />
               <label className="label">
@@ -60,7 +87,10 @@ const Login = () => {
             </label>
           </form>
           <div className="px-8 pb-6">
-            <button className="btn w-full capitalize btn-outline text-color-secondary text-base">
+            <button
+              onClick={() => handleGoogleLogIn(googleLogin)}
+              className="btn w-full capitalize btn-outline text-color-secondary text-base"
+            >
               <FcGoogle></FcGoogle>
               <span>Login with google</span>
             </button>

@@ -10,7 +10,7 @@ import Service from "../../Components/Service";
 
 const Home = () => {
   const servicesData = useLoaderData();
-  console.log(servicesData);
+  // console.log(servicesData);
   useEffect(() => {
     Aos.init();
   }, []);

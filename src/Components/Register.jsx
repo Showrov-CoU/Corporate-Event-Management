@@ -1,6 +1,55 @@
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../AuthProvider/AuthProvider";
+import { updateProfile } from "firebase/auth";
+import toast from "react-hot-toast";
 
 const Register = () => {
+  const { createUser } = useContext(AuthContext);
+  // const [registrationReload, setRegistrationReload] = useState(true);
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);
+    const name = form.get("name");
+    const photoUrl = form.get("photo");
+    const email = form.get("email");
+    const password = form.get("password");
+    console.log(name, photoUrl, email, password);
+
+    if (password.length < 6) {
+      toast.error("Password should be at least 6 charecter");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      toast.error("Your Password should have at least one capital letter");
+      return;
+    } else if (!/[!@#$%^&*()_+{}\[\]:;<>,.?~]/.test(password)) {
+      toast.error("Your Password should have at least one Special character");
+      return;
+    }
+    createUser(email, password)
+      .then((result) => {
+        updateProfile(result.user, { displayName: name, photoURL: photoUrl })
+          .then(() => {
+            console.log("profile Updated");
+            console.log(result.user);
+            toast.success("Registration successful! You can now log in");
+            e.target.reset();
+            location.reload();
+          })
+          .catch((error) => console.log(error.message));
+
+        // if (registrationReload) {
+        //   location.reload();
+        //   setRegistrationReload(false);
+        // }
+      })
+      .catch((error) => {
+        toast.error(error.message);
+        console.log(error.message);
+      });
+  };
+
   return (
     <div className=" min-h-screen">
       <div className="hero-content flex-col pt-0">
@@ -16,7 +65,7 @@ const Register = () => {
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <form className="card-body">
+          <form className="card-body" onSubmit={handleRegister}>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Name</span>
@@ -25,7 +74,7 @@ const Register = () => {
                 type="text"
                 name="name"
                 placeholder="Your Name"
-                className="input input-bordered"
+                className="input input-bordered text-color-secondary"
                 required
               />
             </div>
@@ -37,7 +86,7 @@ const Register = () => {
                 type="text"
                 name="photo"
                 placeholder="Your photo url"
-                className="input input-bordered"
+                className="input input-bordered text-color-secondary"
                 required
               />
             </div>
@@ -49,7 +98,7 @@ const Register = () => {
                 type="email"
                 name="email"
                 placeholder="Your Email"
-                className="input input-bordered"
+                className="input input-bordered text-color-secondary"
                 required
               />
             </div>
@@ -61,7 +110,7 @@ const Register = () => {
                 type="password"
                 name="password"
                 placeholder="Password"
-                className="input input-bordered"
+                className="input input-bordered text-color-secondary"
                 required
               />
               {/* <label className="label">
