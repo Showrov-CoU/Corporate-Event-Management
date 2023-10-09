@@ -50,7 +50,7 @@ const ServiceDetails = () => {
           </div> */}
         </div>
       </div>
-      <div className="bg-color-primary-dark px-10 pt-5 pb-10 rounded-xl">
+      <div className="bg-color-primary-dark px-10 pt-5 pb-10 border-2 border-solid border-color-gray rounded-xl">
         <h1 className="card-title justify-center">Success Stories</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 pt-7 gap-5 md:gap-10 ">
           {oneService?.testimonials?.map((item, idx) => (
