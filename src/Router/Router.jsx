@@ -10,12 +10,15 @@ import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import Profile from "../Pages/Profile/Profile";
+import Contact from "../Pages/Contact/Contact";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 // import Contact from "../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -33,6 +36,10 @@ const router = createBrowserRouter([
         element: <Gallery></Gallery>,
       },
       {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
         path: "/login",
         element: <Login></Login>,
       },
@@ -42,6 +49,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/detail/:id",
+        errorElement: <ErrorPage></ErrorPage>,
         element: (
           <PrivateRoute>
             <ServiceDetails></ServiceDetails>

@@ -39,6 +39,15 @@ const Navbar = () => {
           )}
         </NavLink>
       </li>
+      <li className="mr-5 text-lg">
+        <NavLink to="/contact">
+          {({ isActive }) => (
+            <span className={isActive ? "text-color-secondary" : ""}>
+              Contact
+            </span>
+          )}
+        </NavLink>
+      </li>
       {user ? (
         <>
           <li className="mr-5 text-lg">

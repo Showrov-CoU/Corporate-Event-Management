@@ -20,7 +20,7 @@ const Home = () => {
       <Carousel></Carousel>
 
       {/* service */}
-      <h1 className=" text-center pt-10 pb-2 text-2xl md:text-4xl font-bold">
+      <h1 className=" text-center pt-6 pb-2 text-2xl md:text-4xl font-bold">
         <span className="text-color-secondary">Cvents</span>{" "}
         <span>Services</span>
       </h1>
