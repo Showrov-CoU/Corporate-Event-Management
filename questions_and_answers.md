@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: A
 
-<i>`Food` is an array of size 4. and `info` is an object where the `property` is `favoriteFood` & `value` is `the first index value of Food array`. then `info` objects `property value` change with `"🍝"` . Now the `info` object is `{ favoriteFood: '🍝' }` but `Food` array unchanged. so the result is `A`</i>
+<i>`food` is an array of size 4. and `info` is an object where the `property` is `favoriteFood` & `value` is `the first indices value of food array`. then `info` objects `property value` change with `"🍝"` . Now the `info` object is `{ favoriteFood: '🍝' }` but `food` array unchanged. so the result is `A`</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>`sayHi` is fuction with one `parameter` named `name`. `sayHi` fuction expects one arguments. if `sayHi` is call with one `argument`, the parameter `name` will get this `argument` otherwise get `undefined`. so the answer is `Hi there, undefined`</i>
 
 </p>
 </details>
