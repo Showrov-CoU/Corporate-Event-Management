@@ -1,12 +1,9 @@
 import { useEffect, useState } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Gallery = () => {
   const [gallery, setGallery] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    Aos.init();
     fetch("/images.json")
       .then((res) => res.json())
       .then((data) => {

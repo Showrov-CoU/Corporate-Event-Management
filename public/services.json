@@ -15,12 +15,12 @@
       "testimonials": [
         {
           "client_name": "John Smith",
-          "client_image": "client_john.jpg",
+          "client_image": "https://i.ibb.co/TbWR5GB/r1.jpg",
           "quote": "The Tech Summit was a game-changer for our company. We gained valuable insights and made key industry connections."
         },
         {
           "client_name": "Emily Davis",
-          "client_image": "client_emily.jpg",
+          "client_image": "https://i.ibb.co/G0PxgSL/r2.jpg",
           "quote": "The seminar on AI technology was incredibly informative. I left with a clear understanding of the latest advancements."
         }
       ]
@@ -41,12 +41,12 @@
       "testimonials": [
         {
           "client_name": "Sarah Johnson",
-          "client_image": "client_sarah.jpg",
+          "client_image": "https://i.ibb.co/LSDFj5B/r3.jpg",
           "quote": "Our participation in the Auto Expo led to a significant increase in brand recognition and sales."
         },
         {
           "client_name": "Michael Turner",
-          "client_image": "client_michael.jpg",
+          "client_image": "https://i.ibb.co/Y7yw2fX/r4.jpg",
           "quote": "The expo provided us with a platform to showcase our latest innovations to a receptive audience."
         }
       ]
@@ -67,12 +67,12 @@
       "testimonials": [
         {
           "client_name": "Alexandra Carter",
-          "client_image": "client_alexandra.jpg",
+          "client_image": "https://i.ibb.co/DwJs7MH/r5.jpg",
           "quote": "The team-building workshop was a fantastic experience. Our team is now more unified and productive."
         },
         {
           "client_name": "Robert Allen",
-          "client_image": "client_robert.jpg",
+          "client_image": "https://i.ibb.co/SXbWXJc/r6.jpg",
           "quote": "The outdoor challenges pushed us to work together and think creatively. Highly recommended!"
         }
       ]
@@ -93,12 +93,12 @@
       "testimonials": [
         {
           "client_name": "Mark Anderson",
-          "client_image": "client_mark.jpg",
+          "client_image": "https://i.ibb.co/TbWR5GB/r1.jpg",
           "quote": "Our product launch was a resounding success, thanks to the meticulous planning and execution."
         },
         {
           "client_name": "Linda Martinez",
-          "client_image": "client_linda.jpg",
+          "client_image": "https://i.ibb.co/G0PxgSL/r2.jpg",
           "quote": "The product demos generated a lot of interest, and our sales have skyrocketed since the launch."
         }
       ]
@@ -119,12 +119,12 @@
       "testimonials": [
         {
           "client_name": "James Peterson",
-          "client_image": "client_james.jpg",
+          "client_image": "https://i.ibb.co/LSDFj5B/r3.jpg",
           "quote": "Our board meeting was well-organized and productive. We achieved our goals for the quarter."
         },
         {
           "client_name": "Sarah Collins",
-          "client_image": "client_sarah.jpg",
+          "client_image": "https://i.ibb.co/Y7yw2fX/r4.jpg",
           "quote": "The meeting provided a platform for open discussions, leading to actionable strategies."
         }
       ]
@@ -145,12 +145,12 @@
       "testimonials": [
         {
           "client_name": "Jessica Turner",
-          "client_image": "client_jessica.jpg",
+          "client_image": "https://i.ibb.co/DwJs7MH/r5.jpg",
           "quote": "Our annual awards gala is a highlight for our employees, and it motivates everyone to excel."
         },
         {
           "client_name": "David Mitchell",
-          "client_image": "client_david.jpg",
+          "client_image": "https://i.ibb.co/SXbWXJc/r6.jpg",
           "quote": "The awards ceremony has become a tradition that brings our team together and acknowledges excellence."
         }
       ]
