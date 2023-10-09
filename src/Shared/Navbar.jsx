@@ -66,7 +66,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className=" navbar bg-color-primary-dark pl-[1%] pr-[2%] md:px-[5%]">
+    <div className=" navbar bg-color-primary-dark px-[3%] md:px-[5%]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost px-0 lg:hidden">
@@ -87,7 +87,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="  dropdown-content mt-3 z-[1] p-2 shadow bg-color-primary-light rounded-box w-52"
+            className="dropdown-content mt-3 z-[1] px-2 pb-4 shadow bg-color-primary-light rounded-box w-52 space-y-2"
           >
             {links}
           </ul>

@@ -10,7 +10,9 @@ const PrivateRoute = ({ children }) => {
   if (loading) {
     console.log(loading);
     return (
-      <span className="loading loading-dots loading-lg block my-10 mx-auto"></span>
+      <div className="h-[60vh] flex justify-center items-center">
+        <span className="loading loading-dots loading-lg"></span>
+      </div>
     );
   }
   if (user) {
