@@ -33,7 +33,7 @@ const Profile = () => {
             className="h-full w-full rounded-full"
           />
         </div>
-        <div className="pb-4">
+        <div className="pb-4 w-fit mx-auto">
           <p>
             <span className="font-bold">Name:</span> {user.displayName}
           </p>
