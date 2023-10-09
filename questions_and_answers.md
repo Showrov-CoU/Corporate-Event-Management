@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>`count` variable initialized with `0`. and `nums` is an array of `numbers` of size `4`. the first indices value of nums array is `0` which is one of the `Falsy value`. Using the iterative method of `forEach`, iterates all value of array and check which are `truthy`. if the iterative value is `truthy` then add `1` with previous value of `count`. After iteration `count` value is `3`. </i>
 
 </p>
 </details>
