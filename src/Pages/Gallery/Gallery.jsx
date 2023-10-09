@@ -15,7 +15,7 @@ const Gallery = () => {
     <div>
       <h1 className=" text-center pt-8 pb-2 text-2xl md:text-4xl font-bold">
         <span className="text-color-secondary">Cvents</span>
-        <span>Gallery</span>
+        <span> Gallery</span>
       </h1>
       <p className="px-[5%] pb-6 text-center text-base md:text-lg">
         Capturing the Summary of Our Corporate Gatherings
