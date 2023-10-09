@@ -17,7 +17,7 @@ const Gallery = () => {
   return (
     <div>
       <h1 className=" text-center pt-8 pb-2 text-2xl md:text-4xl font-bold">
-        <span className="text-color-secondary">Cvents</span>{" "}
+        <span className="text-color-secondary">Cvents</span>
         <span>Gallery</span>
       </h1>
       <p className="px-[5%] pb-6 text-center text-base md:text-lg">
@@ -29,7 +29,7 @@ const Gallery = () => {
           <span className="loading loading-dots loading-lg"></span>
         </div>
       ) : (
-        <div className="px-[5%] pb-10 grid grid-cols-4 gap-1 md:gap-2">
+        <div className="px-[5%] pb-10 grid grid-cols-2 md:grid-cols-4 gap-1 md:gap-2">
           {gallery.map((item) => (
             <div key={item.id}>
               <div className="overflow-hidden border-2 border-solid border-color-gray rounded-lg">
