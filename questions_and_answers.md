@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: A
 
-<i>`geeting` is a let type varible. so it can be reinitialize or reassign.it assign with empty object `{}`. so, its answer is is `A`</i>
+<i>`geeting` is a let type varible. so it can be reinitialize or reassign.it assign with empty object `{}`. so, its answer is `A`</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>We know in JS behaviour when a number is added with string. it returns a new string which is the result of concatenate string of two operand. so `1+"2"` is `"12"` not `3`.</i>
 
 </p>
 </details>
