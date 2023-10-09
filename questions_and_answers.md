@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>`geeting` is a let type varible. so it can be reinitialize or reassign.it assign with empty object `{}`. so, its answer is is `A`</i>
 
 </p>
 </details>
