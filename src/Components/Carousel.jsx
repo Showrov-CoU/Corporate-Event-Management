@@ -31,7 +31,7 @@ const Carousel = () => {
             ❯
           </a>
         </div>
-        <div className="absolute left-[15%] md:left-[14%] lg:left-[20%] top-[35%] lg:top-[30%] transform">
+        <div className="absolute left-[15%] md:left-[14%] lg:left-[20%] xl:left-[25%] top-[35%] lg:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
@@ -63,7 +63,7 @@ const Carousel = () => {
           </a>
         </div>
 
-        <div className="absolute left-[11%] md:left-[15%] lg:left-[18%] top-[25%] md:top-[33%] lg:top-[30%] transform">
+        <div className="absolute left-[11%] md:left-[15%] lg:left-[18%] xl:left-[25%] top-[25%] md:top-[33%] lg:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
@@ -95,7 +95,7 @@ const Carousel = () => {
             ❯
           </a>
         </div>
-        <div className="absolute left-[15%] md:left-[13%] lg:left-[20%] top-[30%] transform">
+        <div className="absolute left-[15%] md:left-[13%] lg:left-[20%] xl:left-[25%] top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>
@@ -126,7 +126,7 @@ const Carousel = () => {
             ❯
           </a>
         </div>
-        <div className="absolute left-[15%] md:left-[13%] lg:left-[20%] top-[28%] md:top-[30%] transform">
+        <div className="absolute left-[15%] md:left-[13%] lg:left-[20%] xl:left-[25%] top-[28%] md:top-[30%] transform">
           <h1 data-aos="fade-right" className="text-center text-sm md:text-2xl">
             Event Management Specialist
           </h1>

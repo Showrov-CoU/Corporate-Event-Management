@@ -20,15 +20,15 @@ const Contact = () => {
             className="input input-bordered input-warning block w-[90%] md:w-full max-w-xs mx-auto text-color-secondary"
           />
           <textarea
-            className="block mx-auto textarea textarea-warning w-[90%] md:w-[70%] lg:w-[58%] text-color-secondary text-lg"
+            className="block mx-auto textarea textarea-warning w-[90%] md:w-[70%] lg:w-[58%] xl:w-[48%] text-color-secondary text-lg"
             placeholder="Description"
           ></textarea>
 
           <button className="signbtn block mx-auto">Send</button>
         </div>
       </div>
-      <div className="absolute flex gap-2 lg:gap-4 top-8 md:top-6 lg:top-10 left-[3%] md:left-[11%] lg:left-[22%]">
-        <div className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 border-2 border-solid border-color-gray bg-color-primary flex flex-col justify-center items-center gap-1 rounded-lg">
+      <div className="absolute flex gap-2 lg:gap-4 top-8 md:top-6 lg:top-10 left-[3%] md:left-[11%] lg:left-[22%] xl:left-[25%]">
+        <div className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 border-2 border-solid border-color-gray bg-color-primary flex flex-col justify-center items-center gap-1 rounded-lg">
           <p className="text-color-secondary font-bold text-3xl md:text-4xl">
             <FaLocationArrow></FaLocationArrow>
           </p>
@@ -36,7 +36,7 @@ const Contact = () => {
           <p className="text-xs md:text-sm">Tangail,Madhupur</p>
           <p className="text-xs md:text-sm">AS Plaza, 2nd floor</p>
         </div>
-        <div className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 border-2 border-solid border-color-gray bg-color-primary flex flex-col justify-center items-center gap-1 rounded-lg">
+        <div className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 border-2 border-solid border-color-gray bg-color-primary flex flex-col justify-center items-center gap-1 rounded-lg">
           <p className="text-color-secondary font-bold text-3xl md:text-4xl">
             <FaPhoneAlt></FaPhoneAlt>
           </p>
@@ -44,7 +44,7 @@ const Contact = () => {
           <p className="text-xs md:text-sm">+8801830096308</p>
           <p className="text-xs md:text-sm">Bangladesh</p>
         </div>
-        <div className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 border-2 border-solid border-color-gray bg-color-primary flex flex-col justify-center items-center gap-1 rounded-lg">
+        <div className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 border-2 border-solid border-color-gray bg-color-primary flex flex-col justify-center items-center gap-1 rounded-lg">
           <p className="text-color-secondary font-bold text-3xl md:text-4xl">
             <AiOutlineMail></AiOutlineMail>
           </p>
@@ -52,7 +52,7 @@ const Contact = () => {
           <p className="text-xs md:text-sm leading-tight">as.cou@gmail.com</p>
           <p className="text-xs md:text-sm">Bangladesh</p>
         </div>
-        <div className="hidden w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 border-2 border-solid border-color-gray bg-color-primary md:flex flex-col justify-center items-center gap-1 rounded-lg">
+        <div className="hidden w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 border-2 border-solid border-color-gray bg-color-primary md:flex flex-col justify-center items-center gap-1 rounded-lg">
           <p className="text-color-secondary font-bold text-3xl md:text-4xl">
             <FaFacebook></FaFacebook>
           </p>

@@ -1,16 +1,49 @@
 import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 import { useLoaderData, useParams } from "react-router-dom";
 
 const ServiceDetails = () => {
   const [oneService, setOneService] = useState({});
   const { id } = useParams();
   const loadData = useLoaderData();
+
   // console.log(loadData);
   // console.log(id);
   useEffect(() => {
     const findData = loadData?.find((data) => data.id === parseInt(id));
     setOneService(findData);
   }, [id, loadData]);
+
+  const handleBookNow = () => {
+    const itemArr = [];
+    const bookList = JSON.parse(localStorage.getItem("items"));
+    if (!bookList) {
+      itemArr.push(oneService);
+      console.log(id);
+
+      localStorage.setItem("items", JSON.stringify(itemArr));
+      console.log(bookList);
+      toast.success(
+        "Booking Confirmed! We'll send you a confirmation email shortly. Enjoy the event!"
+      );
+    } else {
+      console.log(id);
+      console.log(bookList);
+      const isExist = bookList.find((it) => it.id === id);
+      if (!isExist) {
+        itemArr.push(...bookList, oneService);
+        localStorage.setItem("items", JSON.stringify(itemArr));
+        toast.success(
+          "Booking Confirmed! We'll send you a confirmation email shortly. Enjoy the event!"
+        );
+      } else {
+        toast.error("Already Booked!");
+      }
+    }
+    //console.log("ok");
+    // localStorage.setItem("ietm", json);
+  };
+
   return (
     <div className="px-[5%] md:py-10 py-5 space-y-10">
       <div className="card lg:card-side bg-color-primary-dark border-2 border-solid border-color-gray">
@@ -45,6 +78,9 @@ const ServiceDetails = () => {
           <p>
             <span className="font-bold">Price:</span> {oneService.pricing}
           </p>
+          <button className="signbtn" onClick={handleBookNow}>
+            Book Now
+          </button>
           {/* <div className="card-actions justify-end">
             <button className="btn btn-primary">Listen</button>
           </div> */}
